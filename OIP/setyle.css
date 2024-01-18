@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+}
+
+#cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}

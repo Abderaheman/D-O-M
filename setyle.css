@@ -1,0 +1,159 @@
+html {
+    font-family: sans-serif;
+}
+header img {
+    width: 268px;
+    height: 33px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    padding: 2rem 0;
+    position: fi xed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1000;
+  }
+  body {
+    background-image: url('chemin/vers/votre/image.jpg');
+    background-size: cover; /* Ajuste la taille pour couvrir tout l'écran */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optionnel - fixe l'image pendant le défilement */
+}
+
+
+.container {
+    width: 400px;
+}
+
+#cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    border: 2px solid rgba(27, 212, 119, 0);
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #54a107;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #a7a4ca;
+  }
+  footer p {
+    padding-top: 20px;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url(OIP/417481040_700792658861016_2847051094418449101_n.jpg); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir complètement l'élément */
+    background-position: center; /* Centre l'image dans l'élément */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+#produit, #panier {
+    background-image: url('OIP/OIP\ \(9\).jfif'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir complètement l'élément */
+    background-position: center; /* Centre l'image dans l'élément */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(214, 3, 3, 0.1);
+    width: 35%;
+    box-sizing: border-box;
+    position: relative;
+}
+.solde-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff0000; /* couleur du fond du label "En solde" */
+    color: #fff; /* couleur du texte du label "En solde" */
+    padding: 5px;
+    border-radius: 3px;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#listeProduits {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listeProduits li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.vip-publication {
+    background-color: #ffd700; /* couleur de fond pour la section VIP */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    box-sizing: border-box;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+#Colombie{
+    background-image: url(OIP/376823664_631829065757376_4419512023780224992_n.jpg); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir complètement l'élément */
+    background-position: center; /* Centre l'image dans l'élément */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
